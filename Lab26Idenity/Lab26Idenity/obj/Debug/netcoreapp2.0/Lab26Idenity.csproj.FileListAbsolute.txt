@@ -1,0 +1,8 @@
+C:\Users\Duane Rush\source\repos\Lab26-Intro-to-Identity\Lab26Idenity\Lab26Idenity\bin\Debug\netcoreapp2.0\Lab26Idenity.deps.json
+C:\Users\Duane Rush\source\repos\Lab26-Intro-to-Identity\Lab26Idenity\Lab26Idenity\bin\Debug\netcoreapp2.0\Lab26Idenity.runtimeconfig.json
+C:\Users\Duane Rush\source\repos\Lab26-Intro-to-Identity\Lab26Idenity\Lab26Idenity\bin\Debug\netcoreapp2.0\Lab26Idenity.runtimeconfig.dev.json
+C:\Users\Duane Rush\source\repos\Lab26-Intro-to-Identity\Lab26Idenity\Lab26Idenity\bin\Debug\netcoreapp2.0\Lab26Idenity.dll
+C:\Users\Duane Rush\source\repos\Lab26-Intro-to-Identity\Lab26Idenity\Lab26Idenity\obj\Debug\netcoreapp2.0\Lab26Idenity.csprojResolveAssemblyReference.cache
+C:\Users\Duane Rush\source\repos\Lab26-Intro-to-Identity\Lab26Idenity\Lab26Idenity\obj\Debug\netcoreapp2.0\Lab26Idenity.csproj.CoreCompileInputs.cache
+C:\Users\Duane Rush\source\repos\Lab26-Intro-to-Identity\Lab26Idenity\Lab26Idenity\obj\Debug\netcoreapp2.0\Lab26Idenity.AssemblyInfoInputs.cache
+C:\Users\Duane Rush\source\repos\Lab26-Intro-to-Identity\Lab26Idenity\Lab26Idenity\obj\Debug\netcoreapp2.0\Lab26Idenity.AssemblyInfo.cs
