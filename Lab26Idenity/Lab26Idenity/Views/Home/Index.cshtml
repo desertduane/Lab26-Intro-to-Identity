@@ -1,1 +1,14 @@
-﻿<h1>My Home View</h1>
+﻿@model List<Lab26Idenity.Models.CMS>
+
+    @{ 
+        Layout = null;
+    }
+
+@foreach (var item in Model)
+{
+    <h1>@item.Title</h1>
+    <p>@item.Genre</p>
+    <p>@item.Content</p>
+
+
+}

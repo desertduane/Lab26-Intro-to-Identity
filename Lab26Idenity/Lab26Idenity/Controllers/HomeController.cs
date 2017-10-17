@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Lab26Idenity.Models;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,9 +9,16 @@ namespace Lab26Idenity.Controllers
 {
     public class HomeController : Controller
     {
-        public ViewResult Index()
+        private readonly Lab26IdenityContext _context;
+        public HomeController(Lab26IdenityContext context)
         {
-            return View();
+            _context = context;
+        }
+
+        public IActionResult Index()
+        {
+            var result = _context.CMS.Where(c => c.ID == 1);
+            return View(result.ToList());
         }
     }
 }

@@ -11,9 +11,10 @@ using System;
 namespace Lab26Idenity.Migrations
 {
     [DbContext(typeof(Lab26IdenityContext))]
-    partial class Lab26IdenityContextModelSnapshot : ModelSnapshot
+    [Migration("20171017173921_CMSUpdate")]
+    partial class CMSUpdate
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

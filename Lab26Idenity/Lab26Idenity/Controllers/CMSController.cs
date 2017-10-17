@@ -53,7 +53,7 @@ namespace Lab26Idenity.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ID,Title,Genre,IsReleased")] CMS cMS)
+        public async Task<IActionResult> Create([Bind("ID,Title,Genre,Content,IsReleased")] CMS cMS)
         {
             if (ModelState.IsValid)
             {
@@ -85,7 +85,7 @@ namespace Lab26Idenity.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ID,Title,Genre,IsReleased")] CMS cMS)
+        public async Task<IActionResult> Edit(int id, [Bind("ID,Title,Genre,Content,IsReleased")] CMS cMS)
         {
             if (id != cMS.ID)
             {
