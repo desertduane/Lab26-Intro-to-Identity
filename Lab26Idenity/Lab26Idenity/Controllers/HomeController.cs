@@ -17,7 +17,7 @@ namespace Lab26Idenity.Controllers
 
         public IActionResult Index()
         {
-            var result = _context.CMS.Where(c => c.ID == 1);
+            var result = _context.CMS.Where(c => c.ID > 0 );
             return View(result.ToList());
         }
     }
